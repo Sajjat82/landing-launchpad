@@ -34,7 +34,7 @@ html, body {
 }
 
 .header {
-    background-image: url('../Assets/Hero-bg.png');
+    background-image: url('../Assets/hero-bg.png');
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -124,4 +124,91 @@ html, body {
     color: #00000050;
     text-align: center;
     margin: 0;
+}
+
+.form-section {
+    margin: 100px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-section h3 {
+    font-weight: bold;
+    font-size: 90px;
+    margin: 0;.
+    width: 50%;
+}
+
+.form {
+    width: 40%;
+}
+
+.form p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input {
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 10px 22px;
+    font-size: 20px;
+    color: #00000050;
+    border: 1px solid #D6DDED;
+}
+
+.form textarea {
+    border-radius: 10px;
+    width: 400px;
+    height: 120px;
+    padding: 10px 22px;
+    font-size: 20px;
+    color: #00000050;
+    border: 1px solid #D6DDED;
+}
+
+.form button{
+    margin-top: 10px;
+    width: 448px;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid #00000010;
+    padding: 80px 350px;
+}
+
+.footer-logo {
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #8987A1;
+    font-weight: 400;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer a {
+    font-size: 16px;
+    margin: 0;
+    color: #8987A1;
+    font-weight: 400;
+    text-decoration: none;
 }
