@@ -33,6 +33,11 @@ html, body {
     cursor: pointer;
 }
 
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}
+
 .header {
     background-image: url('../Assets/hero-bg.png');
     background-repeat: no-repeat;
@@ -124,6 +129,71 @@ html, body {
     color: #00000050;
     text-align: center;
     margin: 0;
+}
+
+.reviews h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.review{
+    background-color: #FFFFFF50;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    width: 300px;
+    padding: 24px;
+}
+
+.review h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.review p {
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-top: 8px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.avatar img {
+    border-radius: 50%; 
+}
+
+.avatar h5 {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.avatar p {
+    color: #B3B3B3;
+    font-size: 16px;
+    margin: 0;
+}
+
+.avatar-name {
+    margin-left: 12px;
+}
+
+.reviews-wrapper {
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
 }
 
 .form-section {
